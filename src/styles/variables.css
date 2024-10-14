@@ -1,2 +1,17 @@
 :root {
+  /* colors */
+  --color-primary: #d658b3;
+  --color-secondary: #45b442;
+  --color-light: white;
+  --color-gray-700: #332b31;
+  --color-gray-600: #4a4448;
+  --color-gray-500: #756c71;
+  --color-gray-400: #d3cfd2;
+  --color-gray-300: #dfdcdf;
+  --color-gray-200: #e9e7e9;
+  --color-gray-100: #f4f1f2;
+
+  /* typography */
+  --font-family-base: 'Oxygen', sans-serif;
+  --leading-base: '140%';
 }
