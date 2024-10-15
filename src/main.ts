@@ -9,5 +9,8 @@ import '@fontsource/oxygen/700.css'
 import './styles/reset.css'
 import './styles/variables.css'
 import './styles/globals.css'
+import './styles/page-header.css'
+import './styles/page-aside.css'
+import './styles/page-content.css'
 
 // Scripts

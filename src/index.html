@@ -7,117 +7,125 @@
   </head>
   <body>
     <main>
-      <!-- Page Header -->
-      <header id="page-header">
-        <a href="#" class="brand">
-          <img src="./assets/Logo.png" alt="Logomarca Member Club" />
-        </a>
+      <!--
+      Page Container -->
+      <div id="page-container">
+        <!-- Page Header -->
+        <header id="page-header">
+          <a href="#" class="brand">
+            <img src="./assets/Logo.png" alt="Logomarca Member Club" />
+          </a>
 
-        <form id="form-search">
-          <div class="input-group">
-            <input class="input-group__input" type="text" />
-            <button class="input-group__button">
-              <i class="ph ph-arrow-elbow-down-left"></i>
-            </button>
-          </div>
-        </form>
-      </header>
-
-      <!-- Page Aside -->
-      <aside id="page-aside">
-        <!-- Profile -->
-        <div class="profile">
-          <!-- Profile Avatar -->
-          <div class="profile__avatar">
-            <img
-              src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt=""
-            />
-          </div>
-
-          <!-- Profile Infos -->
-          <div class="profile__infos">
-            <h2 class="profile__name">Natália Miranda</h2>
-            <p class="profile__since">Cliente desde 18/09/2023</p>
-          </div>
-        </div>
-
-        <!-- History -->
-        <div class="history">
-          <!-- History Header -->
-          <header class="history__header">
-            <h3 class="History__title">Histórico</h3>
-            <p class="History__count">7 cortes</p>
-          </header>
-
-          <!-- History List -->
-          <ul class="history__list">
-            <!-- History Item -->
-            <li class="history__item">
-              <div class="history__item__infos">
-                <div class="history__item__date">29/04/2024</div>
-                <div class="history__item__hour">18:30</div>
-              </div>
-
-              <div class="history__item__icon">
-                <i class="ph ph-seal-check"></i>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </aside>
-
-      <!-- Page Content -->
-      <div id="page-content">
-        <!-- Stamps -->
-        <section id="stamps">
-          <!-- Stamps Header -->
-          <header class="stamps__header">
-            <!-- Stamps Infos -->
-            <div class="stamps__header__infos">
-              <h3 class="stamps__header__title">Cartão Fidelidade</h3>
-              <p class="stamps__header__description">
-                Ao fazer cortes de cabelo, o décimo sai de graça!
-              </p>
-            </div>
-
-            <div class="stamps__id">ID: 124-537-835-230</div>
-          </header>
-
-          <!-- Stamps List -->
-          <ul class="stamps__list">
-            <!-- Stamps Item -->
-            <li class="stamps__item">
-              <img
-                class="stamps__icon"
-                src="./assets/PinCheck.png"
-                alt="ícone do selo de check"
+          <form id="form-search">
+            <div class="input-group">
+              <input
+                class="input-group__input"
+                type="text"
+                placeholder="ID do cartão"
               />
-            </li>
-          </ul>
-        </section>
+              <button class="input-group__button">
+                <i class="ph ph-arrow-elbow-down-left"></i>
+              </button>
+            </div>
+          </form>
+        </header>
 
-        <!-- Progress -->
-        <section id="progress">
-          <!-- Progress title -->
-          <h3 class="progress__title"><span>3</span> cortes restantes</h3>
-
-          <!-- Progress infos -->
-          <div class="progress__infos">
-            <!-- Progress Bar -->
-            <div class="progress__bar">
-              <div class="progress__bar__content" aria-hidden="true"></div>
+        <!-- Page Aside -->
+        <aside id="page-aside">
+          <!-- Profile -->
+          <div class="profile">
+            <!-- Profile Avatar -->
+            <div class="profile__avatar">
+              <img
+                src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt=""
+              />
             </div>
 
-            <!-- Progress Number -->
-            <div class="progress__number">7 de 10</div>
+            <!-- Profile Infos -->
+            <div class="profile__infos">
+              <h2 class="profile__name">Natália Miranda</h2>
+              <p class="profile__since">Cliente desde 18/09/2023</p>
+            </div>
           </div>
 
-          <!-- Progress symbol -->
-          <div class="progress__symbol">
-            <img src="./assets/PinGift.png" alt="ícone de um presente" />
+          <!-- History -->
+          <div class="history">
+            <!-- History Header -->
+            <header class="history__header">
+              <h3 class="History__title">Histórico</h3>
+              <p class="History__count">7 cortes</p>
+            </header>
+
+            <!-- History List -->
+            <ul class="history__list">
+              <!-- History Item -->
+              <li class="history__item">
+                <div class="history__item__infos">
+                  <div class="history__item__date">29/04/2024</div>
+                  <div class="history__item__hour">18:30</div>
+                </div>
+
+                <div class="history__item__icon">
+                  <i class="ph ph-seal-check"></i>
+                </div>
+              </li>
+            </ul>
           </div>
-        </section>
+        </aside>
+
+        <!-- Page Content -->
+        <div id="page-content">
+          <!-- Stamps -->
+          <section id="stamps">
+            <!-- Stamps Header -->
+            <header class="stamps__header">
+              <!-- Stamps Infos -->
+              <div class="stamps__header__infos">
+                <h3 class="stamps__header__title">Cartão Fidelidade</h3>
+                <p class="stamps__header__description">
+                  Ao fazer cortes de cabelo, o décimo sai de graça!
+                </p>
+              </div>
+
+              <div class="stamps__id">ID: 124-537-835-230</div>
+            </header>
+
+            <!-- Stamps List -->
+            <ul class="stamps__list">
+              <!-- Stamps Item -->
+              <li class="stamps__item">
+                <img
+                  class="stamps__icon"
+                  src="./assets/PinCheck.png"
+                  alt="ícone do selo de check"
+                />
+              </li>
+            </ul>
+          </section>
+
+          <!-- Progress -->
+          <section id="progress">
+            <!-- Progress title -->
+            <h3 class="progress__title"><span>3</span> cortes restantes</h3>
+
+            <!-- Progress infos -->
+            <div class="progress__infos">
+              <!-- Progress Bar -->
+              <div class="progress__bar">
+                <div class="progress__bar__content" aria-hidden="true"></div>
+              </div>
+
+              <!-- Progress Number -->
+              <div class="progress__number">7 de 10</div>
+            </div>
+
+            <!-- Progress symbol -->
+            <div class="progress__symbol">
+              <img src="./assets/PinGift.png" alt="ícone de um presente" />
+            </div>
+          </section>
+        </div>
       </div>
     </main>
   </body>
