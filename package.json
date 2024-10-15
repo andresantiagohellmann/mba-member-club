@@ -10,6 +10,7 @@
   "dependencies": {
     "-": "^0.0.1",
     "@fontsource/oxygen": "^5.1.0",
+    "@phosphor-icons/web": "^2.1.1",
     "D": "^1.0.0",
     "json-server": "1.0.0-beta.3"
   },

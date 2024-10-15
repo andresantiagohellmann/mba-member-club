@@ -1,3 +1,6 @@
+// Icons
+import '@phosphor-icons/web/regular'
+
 // Fonts
 import '@fontsource/oxygen/400.css'
 import '@fontsource/oxygen/700.css'
