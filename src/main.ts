@@ -17,3 +17,5 @@ import './styles/section-stamps.css'
 import './styles/section-progress.css'
 
 // Scripts
+import './modules/submit'
+import './modules/mask-input'
