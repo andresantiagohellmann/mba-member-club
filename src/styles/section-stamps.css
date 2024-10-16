@@ -1,0 +1,59 @@
+#section-stamps {
+  grid-area: stamps;
+
+  & .stamps__header {
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: var(--color-gray-500);
+
+    & .stamps__header__title {
+      margin-bottom: 0.5rem;
+    }
+
+    & .stamps__header__description {
+      font-size: 0.75rem;
+    }
+
+    & .stamps__id {
+      min-width: 9.625rem;
+      text-align: center;
+      padding: 0.5rem 0.875rem;
+      border-radius: 1rem;
+      background-color: var(--color-gray-300);
+    }
+  }
+
+  & .stamps__list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.25rem;
+  }
+
+  & .stamps__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    border-radius: 10%;
+    background-color: var(--color-gray-200);
+  }
+
+  & .stamps__icon {
+    width: 80%;
+  }
+}
+
+@media (width >= 31rem) {
+  #section-stamps {
+    & .stamps__header__description {
+      font-size: 0.875rem;
+    }
+
+    & .stamps__list {
+      gap: 1rem;
+    }
+  }
+}

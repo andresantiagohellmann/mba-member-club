@@ -1,3 +1,20 @@
 #page-content {
-  grid-area: content;
+  display: grid;
+  grid-template-areas:
+    'profile'
+    'stamps'
+    'progress'
+    'history';
+  row-gap: 0.5rem;
+}
+
+@media (width >= 31rem) {
+  #page-content {
+    row-gap: 1rem;
+    column-gap: 1.5rem;
+    grid-template-areas:
+      'profile stamps'
+      'history stamps'
+      'history progress';
+  }
 }

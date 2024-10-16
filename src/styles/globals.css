@@ -2,17 +2,20 @@ body {
   font-family: var(--font-family-base);
   line-height: var(--leading-base);
   background-color: var(--color-gray-200);
+  color: var(--color-gray-600);
 }
 
 #page-container {
   width: min(59rem, 100%);
   margin-inline: auto;
   padding-inline: 1rem;
-  display: grid;
-  grid-template-areas:
-    'header header'
-    'aside content';
-  column-gap: 1.5rem;
+}
+
+.white-block {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid var(--color-gray-300);
+  background-color: var(--color-light);
 }
 
 .title-md {
