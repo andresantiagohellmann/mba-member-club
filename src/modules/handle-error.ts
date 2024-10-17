@@ -9,7 +9,7 @@ function createBoxError(error: string) {
 
   errorActive = true
 
-  const main = document.querySelector('main')
+  const main = document.querySelector('main') as HTMLDivElement
   const boxError = document.createElement('p')
 
   boxError.classList.add('box-error')
