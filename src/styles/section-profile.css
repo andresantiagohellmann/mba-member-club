@@ -1,6 +1,7 @@
 #section-profile {
   grid-area: profile;
 
+  min-width: 20rem;
   display: flex;
   column-gap: 1rem;
 

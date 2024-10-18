@@ -1,6 +1,7 @@
 #section-history {
   grid-area: history;
 
+  max-height: 19.438rem;
   display: grid;
   grid-template-rows: auto 1fr;
 

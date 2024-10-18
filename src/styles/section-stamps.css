@@ -44,6 +44,15 @@
   & .stamps__icon {
     width: 80%;
   }
+
+  & .stamps__icon.gift {
+    width: 60%;
+    margin-bottom: -1rem;
+  }
+
+  & .stamps__icon.void-gift {
+    width: 60%;
+  }
 }
 
 @media (width >= 31rem) {

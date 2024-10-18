@@ -39,6 +39,22 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
+.box-success {
+  width: 20rem;
+  padding: 3rem 2rem;
+  position: fixed;
+  left: 50%;
+  bottom: 2rem;
+  text-align: center;
+  transform: translateX(-50%) translateY(150%);
+  color: var(--color-light);
+  border-radius: 1rem;
+  font-weight: bold;
+  background-color: green;
+  animation: box-error-animate 4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
 .title-md {
   font-size: 1.5rem;
   font-weight: bold;

@@ -1,3 +1,4 @@
+import { handleError } from '../modules/handle-error'
 import { ClientsProps } from '../types/client'
 import { apiConfig } from './api-config'
 
@@ -11,6 +12,8 @@ export async function getUserByID(id: string) {
     return client
   } catch (error) {
     console.log(error)
-    alert('Não foi possível fazer a busca por clientes.')
+    return handleError(
+      'Não foi possível fazer a busca por clientes, tente novamente mais tarde.'
+    )
   }
 }
